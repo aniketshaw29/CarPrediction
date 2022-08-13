@@ -1,0 +1,12 @@
+pip install virtualenv  (one time)
+virtualenv env1
+cd scripts/activate
+
+
+pip install notebook
+jupyter notebook
+
+
+pip install pandas
+pip install sklearn
+pip install flask

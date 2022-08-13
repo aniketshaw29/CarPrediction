@@ -1,0 +1,53 @@
+# #lasso Regression
+# lass_reg = Lasso()
+# lass_reg.fit(X_train, Y_train)
+# training_data = lass_reg.predict(X_train)
+# err_score = metrics.r2_score(Y_train, training_data)
+# print('R Squared Error score: ',err_score)
+# plt.scatter(Y_train, training_data)
+# plt.xlabel("Actual Price")
+# plt.ylabel("Predicted price")
+# plt.title("Actual car price vs predicted car price")
+# plt.show()
+
+
+# #linear Regression
+# print('R Squared Error score: ', err_score)
+# pickle.dump(Linear_Reg, open("LinearRegression.pkl", "wb"))
+
+
+
+# #scatter plot
+# print('R Squared Error score: ',err_score)
+# plt.scatter(Y_train, training_data)
+# plt.xlabel("Actual Price")
+# plt.ylabel("Predicted price")
+# plt.title("Actual car price vs predicted car price")
+# plt.show()
+
+
+
+# #TestData
+# Linear_Reg.fit(X_test, Y_test)
+# test_data = Linear_Reg.predict(X_test)
+# err_score = r2_score(Y_test, test_data)
+# print('R Squared Error score: ',err_score)
+# plt.scatter(Y_test, test_data)
+# plt.xlabel("Test Price")
+# plt.ylabel("Predicted price")
+# plt.title("Test car price vs predicted car price")
+# plt.show()
+
+
+
+# #TestDataLasso
+# lass_reg = Lasso()
+# lass_reg.fit(X_test, Y_test)
+# testing_data = lass_reg.predict(X_test)
+# err_score = r2_score(Y_test, testing_data)
+# print('R Squared Error score: ',err_score)
+# plt.scatter(Y_test, testing_data)
+# plt.xlabel("Actual Price")
+# plt.ylabel("Predicted price")
+# plt.title("Actual car price vs predicted car price")
+# plt.show()
